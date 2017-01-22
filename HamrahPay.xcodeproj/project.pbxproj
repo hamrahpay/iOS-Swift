@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04CC1ACB1E084A2C005C0680 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC1ACA1E084A2C005C0680 /* AppDelegate.swift */; };
+		04CC1AD01E084A2C005C0680 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CC1ACE1E084A2C005C0680 /* Main.storyboard */; };
+		04CC1AD21E084A2C005C0680 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CC1AD11E084A2C005C0680 /* Assets.xcassets */; };
+		04CC1AD51E084A2C005C0680 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CC1AD31E084A2C005C0680 /* LaunchScreen.storyboard */; };
+		04CC1AE01E084A2C005C0680 /* HamrahPayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC1ADF1E084A2C005C0680 /* HamrahPayTests.swift */; };
+		04CC1AEB1E084A2C005C0680 /* HamrahPayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC1AEA1E084A2C005C0680 /* HamrahPayUITests.swift */; };
+		04CC1AF91E084A61005C0680 /* HamrahPay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC1AF81E084A61005C0680 /* HamrahPay.swift */; };
+		04CC1AFC1E084A9D005C0680 /* HamrahPayWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC1AFA1E084A9D005C0680 /* HamrahPayWebViewController.swift */; };
+		04CC1AFD1E084A9D005C0680 /* PayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC1AFB1E084A9D005C0680 /* PayViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04CC1ADC1E084A2C005C0680 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04CC1ABF1E084A2C005C0680 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04CC1AC61E084A2C005C0680;
+			remoteInfo = HamrahPay;
+		};
+		04CC1AE71E084A2C005C0680 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04CC1ABF1E084A2C005C0680 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04CC1AC61E084A2C005C0680;
+			remoteInfo = HamrahPay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04CC1AC71E084A2C005C0680 /* HamrahPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HamrahPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CC1ACA1E084A2C005C0680 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04CC1ACF1E084A2C005C0680 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04CC1AD11E084A2C005C0680 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04CC1AD41E084A2C005C0680 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04CC1AD61E084A2C005C0680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CC1ADB1E084A2C005C0680 /* HamrahPayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HamrahPayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CC1ADF1E084A2C005C0680 /* HamrahPayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamrahPayTests.swift; sourceTree = "<group>"; };
+		04CC1AE11E084A2C005C0680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CC1AE61E084A2C005C0680 /* HamrahPayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HamrahPayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CC1AEA1E084A2C005C0680 /* HamrahPayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamrahPayUITests.swift; sourceTree = "<group>"; };
+		04CC1AEC1E084A2C005C0680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CC1AF81E084A61005C0680 /* HamrahPay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HamrahPay.swift; sourceTree = "<group>"; };
+		04CC1AFA1E084A9D005C0680 /* HamrahPayWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HamrahPayWebViewController.swift; sourceTree = "<group>"; };
+		04CC1AFB1E084A9D005C0680 /* PayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04CC1AC41E084A2C005C0680 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CC1AD81E084A2C005C0680 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CC1AE31E084A2C005C0680 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04CC1ABE1E084A2C005C0680 = {
+			isa = PBXGroup;
+			children = (
+				04CC1AC91E084A2C005C0680 /* HamrahPay */,
+				04CC1ADE1E084A2C005C0680 /* HamrahPayTests */,
+				04CC1AE91E084A2C005C0680 /* HamrahPayUITests */,
+				04CC1AC81E084A2C005C0680 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04CC1AC81E084A2C005C0680 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04CC1AC71E084A2C005C0680 /* HamrahPay.app */,
+				04CC1ADB1E084A2C005C0680 /* HamrahPayTests.xctest */,
+				04CC1AE61E084A2C005C0680 /* HamrahPayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04CC1AC91E084A2C005C0680 /* HamrahPay */ = {
+			isa = PBXGroup;
+			children = (
+				04CC1ACA1E084A2C005C0680 /* AppDelegate.swift */,
+				04CC1AF81E084A61005C0680 /* HamrahPay.swift */,
+				04CC1AFA1E084A9D005C0680 /* HamrahPayWebViewController.swift */,
+				04CC1AFB1E084A9D005C0680 /* PayViewController.swift */,
+				04CC1ACE1E084A2C005C0680 /* Main.storyboard */,
+				04CC1AD11E084A2C005C0680 /* Assets.xcassets */,
+				04CC1AD31E084A2C005C0680 /* LaunchScreen.storyboard */,
+				04CC1AD61E084A2C005C0680 /* Info.plist */,
+			);
+			path = HamrahPay;
+			sourceTree = "<group>";
+		};
+		04CC1ADE1E084A2C005C0680 /* HamrahPayTests */ = {
+			isa = PBXGroup;
+			children = (
+				04CC1ADF1E084A2C005C0680 /* HamrahPayTests.swift */,
+				04CC1AE11E084A2C005C0680 /* Info.plist */,
+			);
+			path = HamrahPayTests;
+			sourceTree = "<group>";
+		};
+		04CC1AE91E084A2C005C0680 /* HamrahPayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04CC1AEA1E084A2C005C0680 /* HamrahPayUITests.swift */,
+				04CC1AEC1E084A2C005C0680 /* Info.plist */,
+			);
+			path = HamrahPayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04CC1AC61E084A2C005C0680 /* HamrahPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CC1AEF1E084A2C005C0680 /* Build configuration list for PBXNativeTarget "HamrahPay" */;
+			buildPhases = (
+				04CC1AC31E084A2C005C0680 /* Sources */,
+				04CC1AC41E084A2C005C0680 /* Frameworks */,
+				04CC1AC51E084A2C005C0680 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HamrahPay;
+			productName = HamrahPay;
+			productReference = 04CC1AC71E084A2C005C0680 /* HamrahPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04CC1ADA1E084A2C005C0680 /* HamrahPayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CC1AF21E084A2C005C0680 /* Build configuration list for PBXNativeTarget "HamrahPayTests" */;
+			buildPhases = (
+				04CC1AD71E084A2C005C0680 /* Sources */,
+				04CC1AD81E084A2C005C0680 /* Frameworks */,
+				04CC1AD91E084A2C005C0680 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04CC1ADD1E084A2C005C0680 /* PBXTargetDependency */,
+			);
+			name = HamrahPayTests;
+			productName = HamrahPayTests;
+			productReference = 04CC1ADB1E084A2C005C0680 /* HamrahPayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04CC1AE51E084A2C005C0680 /* HamrahPayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CC1AF51E084A2C005C0680 /* Build configuration list for PBXNativeTarget "HamrahPayUITests" */;
+			buildPhases = (
+				04CC1AE21E084A2C005C0680 /* Sources */,
+				04CC1AE31E084A2C005C0680 /* Frameworks */,
+				04CC1AE41E084A2C005C0680 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04CC1AE81E084A2C005C0680 /* PBXTargetDependency */,
+			);
+			name = HamrahPayUITests;
+			productName = HamrahPayUITests;
+			productReference = 04CC1AE61E084A2C005C0680 /* HamrahPayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04CC1ABF1E084A2C005C0680 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = MAC;
+				TargetAttributes = {
+					04CC1AC61E084A2C005C0680 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					04CC1ADA1E084A2C005C0680 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = MNT39629US;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04CC1AC61E084A2C005C0680;
+					};
+					04CC1AE51E084A2C005C0680 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = MNT39629US;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04CC1AC61E084A2C005C0680;
+					};
+				};
+			};
+			buildConfigurationList = 04CC1AC21E084A2C005C0680 /* Build configuration list for PBXProject "HamrahPay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04CC1ABE1E084A2C005C0680;
+			productRefGroup = 04CC1AC81E084A2C005C0680 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04CC1AC61E084A2C005C0680 /* HamrahPay */,
+				04CC1ADA1E084A2C005C0680 /* HamrahPayTests */,
+				04CC1AE51E084A2C005C0680 /* HamrahPayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04CC1AC51E084A2C005C0680 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CC1AD51E084A2C005C0680 /* LaunchScreen.storyboard in Resources */,
+				04CC1AD21E084A2C005C0680 /* Assets.xcassets in Resources */,
+				04CC1AD01E084A2C005C0680 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CC1AD91E084A2C005C0680 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CC1AE41E084A2C005C0680 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04CC1AC31E084A2C005C0680 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CC1AFD1E084A9D005C0680 /* PayViewController.swift in Sources */,
+				04CC1AF91E084A61005C0680 /* HamrahPay.swift in Sources */,
+				04CC1AFC1E084A9D005C0680 /* HamrahPayWebViewController.swift in Sources */,
+				04CC1ACB1E084A2C005C0680 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CC1AD71E084A2C005C0680 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CC1AE01E084A2C005C0680 /* HamrahPayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CC1AE21E084A2C005C0680 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CC1AEB1E084A2C005C0680 /* HamrahPayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04CC1ADD1E084A2C005C0680 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04CC1AC61E084A2C005C0680 /* HamrahPay */;
+			targetProxy = 04CC1ADC1E084A2C005C0680 /* PBXContainerItemProxy */;
+		};
+		04CC1AE81E084A2C005C0680 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04CC1AC61E084A2C005C0680 /* HamrahPay */;
+			targetProxy = 04CC1AE71E084A2C005C0680 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04CC1ACE1E084A2C005C0680 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04CC1ACF1E084A2C005C0680 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04CC1AD31E084A2C005C0680 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04CC1AD41E084A2C005C0680 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04CC1AED1E084A2C005C0680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04CC1AEE1E084A2C005C0680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04CC1AF01E084A2C005C0680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = HamrahPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ir.sdto.HamrahPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		04CC1AF11E084A2C005C0680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = HamrahPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ir.sdto.HamrahPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		04CC1AF31E084A2C005C0680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MNT39629US;
+				INFOPLIST_FILE = HamrahPayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ir.sdto.HamrahPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HamrahPay.app/HamrahPay";
+			};
+			name = Debug;
+		};
+		04CC1AF41E084A2C005C0680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MNT39629US;
+				INFOPLIST_FILE = HamrahPayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ir.sdto.HamrahPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HamrahPay.app/HamrahPay";
+			};
+			name = Release;
+		};
+		04CC1AF61E084A2C005C0680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = MNT39629US;
+				INFOPLIST_FILE = HamrahPayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ir.sdto.HamrahPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HamrahPay;
+			};
+			name = Debug;
+		};
+		04CC1AF71E084A2C005C0680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = MNT39629US;
+				INFOPLIST_FILE = HamrahPayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ir.sdto.HamrahPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HamrahPay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04CC1AC21E084A2C005C0680 /* Build configuration list for PBXProject "HamrahPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CC1AED1E084A2C005C0680 /* Debug */,
+				04CC1AEE1E084A2C005C0680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CC1AEF1E084A2C005C0680 /* Build configuration list for PBXNativeTarget "HamrahPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CC1AF01E084A2C005C0680 /* Debug */,
+				04CC1AF11E084A2C005C0680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CC1AF21E084A2C005C0680 /* Build configuration list for PBXNativeTarget "HamrahPayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CC1AF31E084A2C005C0680 /* Debug */,
+				04CC1AF41E084A2C005C0680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CC1AF51E084A2C005C0680 /* Build configuration list for PBXNativeTarget "HamrahPayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CC1AF61E084A2C005C0680 /* Debug */,
+				04CC1AF71E084A2C005C0680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04CC1ABF1E084A2C005C0680 /* Project object */;
+}
